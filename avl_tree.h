@@ -12,6 +12,7 @@
 //****************************************************
 #ifndef AVL_TREE_H
 #define AVL_TREE_H
+#include <stddef.h>
 
 struct BinaryNode {
   BinaryNode(const int key) : key(key), left(NULL), right(NULL) {}
